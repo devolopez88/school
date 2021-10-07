@@ -11,10 +11,28 @@ namespace project.Controllers
     {
         public IActionResult Index()
         {
-            var objAsignatura = new Asignatura();
-            objAsignatura.name = "Matematicas";
-            objAsignatura.description = "This is the first asignature create for statig this project";
-            return View(objAsignatura);
+            var listAsignatura = new List<Asignatura>()
+            {
+                new Asignatura{ 
+                    name = "Math",
+                    description = "This is the first asignature create for statig this project"
+                },
+                new Asignatura{ 
+                    name = "Chemistry",
+                    description = "This is the first asignature create for statig this project"
+                },
+                new Asignatura{ 
+                    name = "Literature",
+                    description = "This is the first asignature create for statig this project"
+                },
+                new Asignatura
+                {
+                    name = "Language",
+                    description = "This is the first asignature create for statig this project"
+                }
+            };
+            
+            return View(listAsignatura);
         }
     }
 }

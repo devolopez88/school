@@ -39,3 +39,5 @@ E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\project.pdb
 E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\project.genruntimeconfig.cache
 E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\project.csproj.CopyComplete
 E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\Razor\Views\Escuela\Index.cshtml.g.cs
+E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\Razor\Views\Asignatura\Index.cshtml.g.cs
+E:\Platzi\ASP.NET Core\project\obj\Debug\net5.0\Razor\Views\Shared\_VistaParcialAsignatura.cshtml.g.cs

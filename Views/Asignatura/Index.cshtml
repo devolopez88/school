@@ -1,14 +1,15 @@
-﻿@model Asignatura
+﻿@model List<Asignatura>
 @{
     ViewData["Title"] = "Asignatura";    
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to Escuela</h1>
-    <h2>@Model.name</h2>
-    <p>@Model.description</p>
-    <div>
-       
-    </div>
-    
+    <h1 class="display-4">Signatures</h1>
+    <h2>All this are the signatures in the school</h2>
+    @foreach ( var lstAsignatura in Model)
+    {
+        <partial name="_VistaParcialAsignatura" model="lstAsignatura" />
+    }
+
+
 </div>
