@@ -15,6 +15,9 @@ namespace project.Controllers
             objEscuela.anio = 2022;
             objEscuela.Id = Guid.NewGuid().ToString();
             objEscuela.Nombre = "Jose Celestino Mutis Class";
+            objEscuela.address = "6064 Narcoose Roud";
+            objEscuela.city = "Orlando";
+            objEscuela.country = "United States";
             //  ViewBag
             ViewBag.info1 = "Info base";
             return View(objEscuela);
